@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0px;
+    /* background: radial-gradient( ellipse,#fc354c,
+    #0abfbc); */
+}
+
+.clock{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background: radial-gradient( ellipse,rgba(252, 53, 76,0.5),
+    rgba(10, 191, 188,0.5)), url('clock.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 30%;
+  
+  
+
+}
+.clock img{
+    position: absolute;
+    top: 95px;
+    left: 149px;
+}
